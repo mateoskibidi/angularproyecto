@@ -1,6 +1,7 @@
-/*import { Component } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { producto } from '../../models/producto';
+import {Producto } from '../../models/producto';
+
 @Component({
   selector: 'app-home',
   imports: [CommonModule],
@@ -8,7 +9,8 @@ import { producto } from '../../models/producto';
   styleUrl: './home.css'
 })
 export class Home {
-  public infohome: roducto[];
+  public infohome: Producto[];
+
   constructor() {
 
     this.infohome = [
@@ -37,7 +39,7 @@ export class Home {
         anualpublicacion: 2025
       },
       {
-        id: "4sT",
+        id: "4T",
         img: "../../../assets/https://w7.pngwing.com/pngs/51/734/png-transparent-2010-fifa-world-cup-2014-fifa-world-cup-2018-world-cup-adidas-jabulani-ball-ball-sports-equipment-adidas-sports.png",
         alt: "bola",
         titulo: "futbol",
@@ -48,11 +50,10 @@ export class Home {
     ]
   }
 
-  /*variable para tomar una tarjeta seleccionada */
-  //homeseleccionado: any = null;
+  homeseleccionado: any = null;
 
-  /*recibir elemento seleccionado por parametro y lo asignaa "tarjetaSeleccionada" */
-  //verMas(Home: any) {
-    //this.homeseleccionado = Home;
-  //}
-//}
+
+  verMas(Home: any) {
+    this.homeseleccionado = Home;
+  }
+}

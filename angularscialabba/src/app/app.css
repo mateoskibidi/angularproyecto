@@ -1,0 +1,85 @@
+/* =========================
+   FOOTER ESTILO NEGRO Y ROJO
+   ========================= */
+footer {
+  background-color: #000; /* fondo negro */
+  color: #fff;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: 3px solid #e50914; /* rojo estilo Netflix */
+}
+
+/* Logo o título principal */
+footer h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #e50914;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Enlaces del footer */
+.footer-links {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #e50914;
+}
+
+/* Redes sociales */
+.footer-social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 1.4rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-social a:hover {
+  color: #e50914;
+  transform: scale(1.1);
+}
+
+/* Texto final */
+.footer-copy {
+  font-size: 0.9rem;
+  color: #aaa;
+  border-top: 1px solid #222;
+  padding-top: 15px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  footer {
+    padding: 30px 10px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

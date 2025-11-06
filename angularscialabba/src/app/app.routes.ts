@@ -7,7 +7,10 @@ import { Product } from './pages/products/products';
 export const routes: Routes = [
     
     {
-        path: "*", component: Home
+        path: "", component: Home
+    },
+    {
+        path: "**", component: Home
     },
     {
         path: "home", component: Home
