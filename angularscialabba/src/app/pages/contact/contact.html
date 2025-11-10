@@ -1,1 +1,26 @@
-<p>contact works!</p>
+
+    <h2>Formulario de contacto</h2>
+
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label for="asunto">Asunto:</label>
+        <select id="asunto" name="asunto">
+            <option value="consulta">Consulta general</option>
+            <option value="soporte">Soporte técnico</option>
+            <option value="otros">Otros</option>
+        </select>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+

@@ -26,7 +26,7 @@ export class Product {
     this.infoTarjeta = [
       {
         id: "1T",
-        img: "../../../assets/",
+        img: "../../../assets/italia.png",
         alt: "pelota d futbol",
         titulo: "gaaa bolaa",
         descripcion: "bolaesferica de fuchibol",
@@ -34,28 +34,74 @@ export class Product {
       },
       {
         id: "2T",
-        img: "../../../assets/https://w7.pngwing.com/pngs/51/734/png-transparent-2010-fifa-world-cup-2014-fifa-world-cup-2018-world-cup-adidas-jabulani-ball-ball-sports-equipment-adidas-sports.png",
+        img: "../../../assets/bola2010.png",
         alt: "pelotaaaa",
         titulo: "futbolde bola",
-        descripcion: "bolas para casa",
+        descripcion: "pelota del mundial 2010",
         anualpublicacion: 2025
       },
       {
         id: "3T",
-        img: "../../../assets/https://w7.pngwing.com/pngs/946/198/png-transparent-2014-fifa-world-cup-final-adidas-brazuca-ball-adidas-sport-football-boot-sports-equipment.png",
+        img: "../../../assets/brazil.png",
         alt: "futbol",
         titulo: "bola",
-        descripcion: "bola de futbol",
+        descripcion: "pelota del mundial 2014",
         anualpublicacion: 2025
       },
       {
         id: "4sT",
-        img: "../../../assets/https://w7.pngwing.com/pngs/51/734/png-transparent-2010-fifa-world-cup-2014-fifa-world-cup-2018-world-cup-adidas-jabulani-ball-ball-sports-equipment-adidas-sports.png",
         alt: "bola",
-        titulo: "futbol",
-        descripcion: "esferico",
+        titulo: "futbol",        img: "../../../assets/bolamundialclub.avif",
+
+        descripcion: "pelota del mundial 2018",
         anualpublicacion: 2025
-      }
+      },
+{
+
+id: "3T",
+        img: "../../../assets/clasico.png",
+        alt: "futbol",
+        titulo: "bola",
+        descripcion: "pelota del mundial 2014",
+        anualpublicacion: 2025
+
+},
+
+{
+
+
+
+id: "5T",
+        img: "../../../assets/adidas.png",
+        alt: "futbol",
+        titulo: "bola",
+        descripcion: "pelota del mundial 2014",
+        anualpublicacion: 2025
+
+
+},
+{
+
+id: "7T",
+        img: "../../../assets/fea.png",
+        alt: "futbol",
+        titulo: "bola",
+        descripcion: "pelota del mundial 2014",
+        anualpublicacion: 2025
+
+
+
+},
+{
+  id: "8T",
+        img: "../../../assets/azul.png",
+        alt: "futbol",
+        titulo: "bola",
+        descripcion: "pelota del mundial 2014",
+        anualpublicacion: 2025
+}
+
+
 
     ]
   }
