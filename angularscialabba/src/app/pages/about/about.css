@@ -1,0 +1,14 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.col-img{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}

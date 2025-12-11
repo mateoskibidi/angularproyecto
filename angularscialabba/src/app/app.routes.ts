@@ -23,10 +23,10 @@ export const routes: Routes = [
         path: "contact", component: Contact
     },
     {
-        path: "product", component: Product
+        path: "galeria", component: Product
     },
     {
-        path: "galeria", component: Galeria
+        path: "product", component: Galeria
     },
     {
         path:"oferta", component: Oferta

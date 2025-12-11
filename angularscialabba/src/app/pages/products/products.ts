@@ -99,7 +99,67 @@ id: "7T",
         titulo: "bola",
         descripcion: "pelota del mundial 2014",
         anualpublicacion: 2025
-}
+},
+
+{
+  id: "9T",
+        img: "../../../assets/bolaafricana.png",
+        alt: "futbol",
+        titulo: "2014",
+        descripcion: "pelota 2014",
+        anualpublicacion: 2025
+},
+{ 
+id: "10T",
+        img: "../../../assets/adidass.png",
+        alt: "futbol",
+        titulo: "2014",
+        descripcion: "pelota 2014",
+        anualpublicacion: 2025
+},
+
+
+{
+id: "10T",
+        img: "../../../assets/fea.png",
+        alt: "futbol",
+        titulo: "2014",
+        descripcion: "pelota 2014",
+        anualpublicacion: 2025
+},
+{
+  id: "12T",
+        img: "../../../assets/bolaafricana.png",
+        alt: "futbol",
+        titulo: "2014",
+        descripcion: "pelota 2014",
+        anualpublicacion: 2025
+},
+{
+id: "13T",
+        img: "../../../assets/bolamundialclub.avif",
+        alt: "futbol",
+        titulo: "2014",
+        descripcion: "pelota 2014",
+        anualpublicacion: 2025
+},
+{
+id: "14T",
+        img: "../../../assets/bola2010.png",
+        alt: "futbol",
+        titulo: "2014",
+        descripcion: "pelota 2014",
+        anualpublicacion: 2025
+},
+
+{
+  id: "15T",
+        img: "../../../assets/bola2018.png",
+        alt: "futbol",
+        titulo: "20148",
+        descripcion: "pelota 2018",
+        anualpublicacion: 2025
+},
 
 
 
