@@ -1,26 +1,16 @@
+<h2>Formulario de contacto</h2>
 
-    <h2>Formulario de contacto</h2>
+<form [formGroup]="miformulario" (ngSubmit)="enviardatos()">
+    <label for="email">email</label>
+    <input id="email" formControlName="email">
 
-    <form action="procesar_formulario.php" method="POST">
-        <label for="nombre">Nombre completo:</label>
-        <input type="text" id="nombre" name="nombre" required>
 
-        <label for="correo">Correo electrónico:</label>
-        <input type="email" id="correo" name="correo" required>
+    <label for="nombre">nombre</label>
+    <input id="nombre" formControlName="nombre">
 
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono">
+    <label for="apellido">apellido</label>
+    <input id="apellido" formControlName="apellido">
 
-        <label for="asunto">Asunto:</label>
-        <select id="asunto" name="asunto">
-            <option value="consulta">Consulta general</option>
-            <option value="soporte">Soporte técnico</option>
-            <option value="otros">Otros</option>
-        </select>
+    <button [disabled]="miformulario.invalid">enviar</button>
 
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-
-        <button type="submit">Enviar</button>
-    </form>
-
+</form>
